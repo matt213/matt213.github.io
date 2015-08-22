@@ -1,0 +1,45 @@
+<!-- Matthew Perrella - 212188002 -->
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>jQuery Mobile page</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/the_best.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> <!-- this is calling the CSS -->
+
+</head>
+
+<body>
+ 
+  <div data-role="header">
+  	<h1>The Best Food </h1>
+ 
+	</div>
+ 
+	<h3>Welcome to the Best Food app, this app is intended to show customers what this restruant is about, this is your home page! enjoy.</h3>
+    <ul data-role="listview" data-inset="true"> <!-- creating a list view and activating it -->
+      <li>
+      	<a href="menu.html">Menu</a> <!-- each one of these divert to the appropriat .html file -->
+      </li>
+      <li>
+      	<a href="recipes.html">Recipes</a>
+      </li>
+      <li><a href="map.html">How To Get There</a>
+      </li>
+      <li><a href="form.html">Feedback</a>
+      </li>
+      <li><a href="dev.html">Developer Details</a>
+      </li>
+      <li><a href="tel:045555555555" data-role="button" rel="external">Click To Call</a> <!-- this acts as an external click to call button -->
+      </li>
+    </ul>
+  </div>
+ 
+</body>
+ 
+</html>

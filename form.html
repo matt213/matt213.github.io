@@ -1,0 +1,41 @@
+<!-- Matthew Perrella - 212188002 -->
+<body>
+  <div data-role="page" id="home" data-theme="a">
+    <header data-role="header">
+      <h1>Restaurants</h1>
+      <a href='index.html' class='ui-btn-left ui-btn-back' data-icon='arrow-l' rel='external'>Back</a> <!-- your button to go back to home page, index.html -->
+    </header>
+
+  <div data-role="main" class="ui-content">
+      <div class="ui-field-contain"> <!-- field to enter full name -->
+        <label for="fullname">Full name:</label>
+        <input type="text" name="fullname" id="fullname"> 
+       </div>
+       <br>     
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="Your email.."> <!-- field to enter email, place holder text says your email.. -->
+       </div>
+       <br>
+        <div class="ui-field-contain">
+        <label for="info">Additional Information:</label>
+        <textarea name="addinfo" id="info"></textarea>
+      </div><!-- field to enter additional details -->
+      <div data-role="main" class="ui-content">
+        <label for="points">What do you rate us?</label>
+       <input type="range" name="points" id="points" value="50" min="0" max="100"> <!-- slider to rate the venue-->
+    </div>
+    <div data-role="main" class="ui-content">
+     <br>
+      <label for="switch">Would you reccomend us?
+      </label> <!-- yes or no toggle switch -->
+        <input type="checkbox" data-role="flipswitch" name="switch" id="switch" data-on-text="Yes" data-off-text="No">
+        <br>
+    
+    <form method="post" action="form_submit.html">
+      <input type="submit" data-inline="true" value="Submit">
+    </div> <!-- button to submit form, goes to linked html-->
+    </form>
+  </div>
+</div>
+
+</body>
