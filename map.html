@@ -1,0 +1,75 @@
+<!-- Matthew Perrella - 212188002 -->
+<body>
+  <div data-role="page" id="home" data-theme="a">
+ 	<header data-role="header">
+ 		<h1>The Best Food</h1>
+ 	 <a href='index.html' class='ui-btn-left ui-btn-back' data-icon='arrow-l' rel='external'>Back</a>  <!-- your button to go back to home page, index.html -->
+ 	</header> 
+
+
+	<div class="ui-grid-a" id="restau_infos">
+		<div class="ui-block-a"> <!-- creates grid -->
+			<h1> The Best Food</h1>
+			<p>
+			<strong>  A home grown restaurant, that combines great flavours with a homestyle touch to all the food on the menu
+			</strong>
+			</p>
+
+			<p> Menu Speciality </p>
+			<ul>
+				<li> Peppermint Slice </li>
+				<li> Garlic Prawn Salad </li>
+				<li> Juice Bar </li>
+			</ul>
+		</div>
+
+		<div class="ui-block-b">
+			<p>
+			<img src="images/setting.jpg" alt="frontphoto"/>
+			</p>
+		
+		</div>
+	</div><!-- /grid-a -->
+	<hr/>
+ 
+	<div class="ui-grid-a" id="contact_infos">
+		<div class="ui-block-a"> <!-- creates grid -->
+		<h2> Contact us
+		</h2>
+
+		<p>64 Hunt Cres Clarinda
+		</p>
+
+		<p> 3169, Victoria	
+		</p>
+
+		</div>
+		<div class="ui-block-b">
+		<img src="images/map.png" alt="map"/>
+		</div>
+	</div><!-- /grid-a -->
+	<div id="contact_buttons">
+		<a href="https://www.google.com.au/maps/place/64+Hunt+Cres,+Clarinda+VIC+3169/@-37.947028,145.103403,17z/data=!3m1!4b1!4m2!3m1!1s0x6ad66b7b23687f5b:0xae213d0dccf3b7ca" data-role="button" data-icon="maps"> <!-- makes this text a link to the above link -->
+			Find us on Google Maps 
+		</a>
+		
+		<a href="045555555555"  data-role="button" data-icon="external"> Call us <!-- external one touch call-->
+		</a>
+	</div>
+	<hr/>
+ 
+		<div id="notation">
+			<form> <!-- creates form selection -->
+				<label for="select-choice-0" class="select"><h2> User rating </h2></label>
+				<select name="note_utilisateur" id="note_utilisateur" data-native-menu="false" data-theme="c" >
+		   		<option value="one" class="one"> Not good at all </option>
+		   		<option value="two" class="two">Average </option>
+		   		<option value="three" class="three">Pretty good </option>
+		   		<option value="four" class="four"> Excellent </option>
+			</select>
+			</form>
+		</div>
+		</div>
+ 
+	</div><!-- /page -->
+</body>

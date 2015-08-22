@@ -1,0 +1,62 @@
+<!-- Matthew Perrella - 212188002 -->
+<body>
+  <div data-role="page" id="home" data-theme="a">
+ <header data-role="header">
+  <h1>The Best Food</h1>
+  <a href='index.html' class='ui-btn-left ui-btn-back' data-icon='arrow-l' rel='external'>Back</a>  <!-- your button to go back to home page, index.html -->
+ </header> 
+ <div class="content" data-role="content">
+    <h3>Recipes
+    </h3>
+    <h4>With these recipes, we supply a juice bar at famous restruant, any juice on this page can be ordered in store, plus many more in store!
+    </h4>
+  <div data-role="main" class="ui-content">
+    <form>
+      <input data-type="search" id="filterCollapsibles"> <!-- creates a search form that filters the collapsibles -->
+    </form>
+    <div data-role="collapsibleset" data-filter="true" data-inset="true" id="myFilter" data-input="#filterCollapsibles">
+      <div data-role="collapsible" data-filtertext="energy"><!-- creates the collapsible and filtered word for search is energy -->
+        <h3>Energy</h3>
+          <ul data-role="listview" data-inset="false">
+            <img src="images/energy.jpg" /> 
+            <h3>1 Apple</h3>
+            <h3>1 Orange</h3>
+           <h3>1 Mango</h3>
+            <h3>1/4 Pineapple</h3>
+         </ul>
+        </div>
+        <div data-role="collapsible" data-filtertext="Water"><!-- creates the collapsible and filtered word for search is water -->
+          <h3>Watermelon+Strawberry</h3>
+          <ul data-role="listview" data-inset="false">
+            <img src="images/melon.png" /> 
+            <h3>1/2 a watermelon</h3>
+            <h3>12 strawberries</h3>
+            
+          </ul>
+        </div>
+        <div data-role="collapsible" data-filtertext="sunrise"><!-- creates the collapsible and filtered word for search is sunrise-->
+          <h3>Sunrise</h3>
+          <ul data-role="listview" data-inset="false">
+            <h3>2 Apples<h3/>
+            <h3>2 Oranges</h3>
+            <h3>Handful of Raspberries</h3>
+          </ul>
+        </div>
+        <div data-role="collapsible" data-filtertext="Sweet"><!-- creates the collapsible and filtered word for search is sweet -->
+          <h3>Sweet Summer</h3>
+          <ul data-role="listview" data-inset="false">
+            <img src="images/honey.jpg" /> 
+            <h3>1/2 Honeydew</h3>
+            <h3>1 Orange</h3>
+            <h3>Teaspoon of sugar</h3>
+          </ul>
+        </div>
+    </div>
+  </div>
+
+
+
+</body> 
+
+
+
